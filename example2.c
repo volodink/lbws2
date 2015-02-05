@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
   	stop = omp_get_wtime();
 
 	printf("The value of PI is %15.12f\n",pi);
-	printf("The time to calculate PI was %f seconds\n",((stop - start)/1000.0));
+	printf("The time to calculate PI was %f seconds\n", stop - start);
 	
 	return 0;
 }
